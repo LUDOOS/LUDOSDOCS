@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'CherryBomb';
+    src: url('/Assets/Font/CherryBomb/CherryBomb-Regular.ttf');
+}
+
+*{
+    font-family: 'CherryBomb';
+    box-sizing: border-box;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 60px;
+}
+#Logo{
+
+   font-size: 30px;
+   
+    
+}
+.navBar a{
+    
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.1s;
+
+}
+.navBar a:hover{
+
+    border-bottom-style: solid;
+    border-bottom-color: #F3D1FF;
+    border-bottom-width: 2px  ;
+    border-radius: 3px;
+}
+.navBar .active{
+
+    border-bottom-style: solid;
+    border-bottom-color: #F3D1FF;
+    border-bottom-width: 2px  ;
+    border-radius: 3px;
+}
+
+
+.navBar button{
+    padding: 6px 12px;
+    background-color: #F3D1FF;
+    border-radius: 20px;
+    border: none;
+}
+
+.navBar button:hover{
+    background-color: #C1E7F5;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 57rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/Assets/Images/Main_cropped.png');
+}
